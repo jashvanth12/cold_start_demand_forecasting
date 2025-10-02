@@ -1,0 +1,5 @@
+[cache]
+storage = "file"
+
+[logger]
+level = "error"  # Suppress warnings, show only errors
