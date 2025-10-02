@@ -1,0 +1,17 @@
+name: forecasting_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pandas=1.5.3
+  - numpy=1.24.3
+  - lightgbm=3.3.5
+  - shap=0.41.0
+  - streamlit=1.24.0
+  - matplotlib=3.7.1
+  - seaborn=0.12.2
+  - plotly=5.14.1
+  - pip
+  - pip:
+      - kaleido==0.2.1
